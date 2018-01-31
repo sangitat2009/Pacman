@@ -1,0 +1,46 @@
+TEST DATA 1 & OUTPUT
+------------
+
+
+PLACE 1,2,SOUTH
+
+MOVE
+
+MOVE
+
+REPORT
+
+OUTPUT : 3,2,SOUTH
+
+
+
+TEST DATA - 2 & OUTPUT
+--------------
+
+
+PLACE 0,0,NORTH
+
+MOVE
+
+RIGHT
+
+LEFT
+REPORT
+
+OUTPUT : 0,1,NORTH
+
+
+TEST DATA - 3 & OUTPUT
+-----------------------
+
+PLACE 1,2,WEST
+
+MOVE
+
+RIGHT
+
+MOVE
+
+REPORT
+
+Output: 2,3,NORTH
